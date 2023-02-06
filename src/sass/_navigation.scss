@@ -11,10 +11,18 @@
 .navigation__item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 210px;
+  height: 46px;
+  padding: 11px;
 
   &:not(:last-child) {
     margin-bottom: 40px;
   }
+}
+
+.navigation__item--wraper {
+  display: flex;
 }
 
 .navigation__text {

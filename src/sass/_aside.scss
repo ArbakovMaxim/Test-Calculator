@@ -1,0 +1,12 @@
+.aside {
+  float: left;
+  background-color: white;
+  width: 20%;
+  height: 100%;
+}
+
+.aside--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
