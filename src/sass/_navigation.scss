@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+}
+
+.navigation__list {
+  list-style-type: none;
+  margin-left: 39px;
+  margin-top: 64px;
+}
+
+.navigation__item {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+
+.navigation__text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+
+  color: #9197b3;
+  margin-left: 14px;
+}

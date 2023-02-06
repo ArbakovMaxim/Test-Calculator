@@ -1,0 +1,34 @@
+.logo--wraper {
+  display: flex;
+  margin-left: 28px;
+  margin-top: 36px;
+  align-items: center;
+}
+
+.logo--wrapper__text {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo--svg {
+  fill: black;
+}
+
+.logo--text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  color: #000000;
+  margin-left: 8px;
+}
+
+.logo-text__version {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  margin-left: 4px;
+}

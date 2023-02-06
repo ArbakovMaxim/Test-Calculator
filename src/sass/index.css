@@ -1,0 +1,77 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+.aside {
+  float: left;
+  background-color: white;
+  width: 306px;
+  height: 100vh;
+}
+
+.logo--wraper {
+  display: flex;
+  margin-left: 28px;
+  margin-top: 36px;
+  align-items: center;
+}
+
+.logo--wrapper__text {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo--svg {
+  fill: black;
+}
+
+.logo--text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  color: #000000;
+  margin-left: 8px;
+}
+
+.logo-text__version {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  margin-left: 4px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation__list {
+  list-style-type: none;
+  margin-left: 39px;
+  margin-top: 64px;
+}
+
+.navigation__item {
+  display: flex;
+  align-items: center;
+}
+.navigation__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.navigation__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #9197b3;
+  margin-left: 14px;
+}/*# sourceMappingURL=index.css.map */
