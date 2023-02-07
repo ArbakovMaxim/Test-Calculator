@@ -21,6 +21,15 @@
   }
 }
 
+.navigation__item--active {
+  background-color: #5932ea;
+  border-radius: 8px;
+}
+
+.navigation__text.navigation__text--active {
+  color: white;
+}
+
 .navigation__item--wraper {
   display: flex;
 }
