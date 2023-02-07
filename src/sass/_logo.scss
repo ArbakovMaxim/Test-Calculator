@@ -3,11 +3,18 @@
   margin-left: 28px;
   margin-top: 36px;
   align-items: center;
+  @media screen and(max-width:1279px) {
+    margin-left: 0;
+  }
 }
 
 .logo--wrapper__text {
   display: flex;
   align-items: baseline;
+
+  @media screen and(max-width:1279px) {
+    z-index: 2;
+  }
 }
 
 .logo--svg {
